@@ -1,6 +1,7 @@
 body {
     padding-top: 70px;
     padding-bottom: 30px;
+    background-color: black;
   }
   
   .theme-dropdown .dropdown-menu {
@@ -8,11 +9,23 @@ body {
     display: block;
     margin-bottom: 20px;
   }
-  
+ 
+  .page-header{
+    color: white;
+  }
+
+  .well {
+    border-top-right-radius: 0;
+    border-top-left-radius: 0;
+  }
   .theme-showcase > p > .btn {
     margin: 5px 0;
   }
   
   .theme-showcase .navbar .container {
     width: auto;
+  }
+
+  .container {
+    text-align: center;
   }
